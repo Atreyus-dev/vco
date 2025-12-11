@@ -1,0 +1,51 @@
+body {
+    background-image: url(/assets/backgrounds/indice.svg);
+    background-repeat: no-repeat;
+    background-position: content;
+    width: 100dvw;
+    height: 100dvh;
+    color: white;
+    display: grid;
+}
+
+.wrapper {
+    margin: auto;
+    margin-right: 880px;
+    font-size: xx-large;
+}
+
+li {
+    margin: 0.3rem;
+    color: #0e2c20;
+}
+
+.sub {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+span {
+    color: white;
+    /* margin-left: 1rem; */
+}
+
+.icon-wrapper {
+    position: relative;
+    width: fit-content;
+}
+
+.circle {
+    position: absolute;
+    left: 0;
+}
+
+.play {
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    right: 4px;
+    bottom: 12px;
+}

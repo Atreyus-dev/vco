@@ -1,0 +1,18 @@
+p {
+    margin: 5rem;
+    animation: appear 2s ease both;
+    animation-delay: 1s;
+}
+
+main {
+    width: 80dvw;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

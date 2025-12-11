@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-image: url(/assets/backgrounds/verde.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100dvw;
+    height: 100dvh;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+main {
+    display: flex;
+    margin: auto;
+}

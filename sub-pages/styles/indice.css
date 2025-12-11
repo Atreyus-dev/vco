@@ -1,0 +1,43 @@
+body {
+    background-image: url(/assets/backgrounds/indice.svg);
+    background-repeat: no-repeat;
+    background-position: content;
+    width: 100dvw;
+    height: 100dvh;
+    color: white;
+    display: grid;
+}
+
+.wrapper {
+    margin: auto;
+    margin-right: 857px;
+    font-size: xx-large;
+}
+
+li {
+    margin: 2rem;
+    color: #0e2c20;
+}
+
+span {
+    color: white;
+    margin-left: 1rem;
+}
+
+.icon-wrapper {
+    position: relative;
+    width: fit-content;
+}
+
+.circle {
+    position: absolute;
+    left: 0;
+}
+
+.play {
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    right: 4px;
+    bottom: 12px;
+}

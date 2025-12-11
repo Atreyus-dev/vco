@@ -1,0 +1,64 @@
+body {
+    background-image: url(/assets/backgrounds/portada.svg);
+    background-repeat: no-repeat;
+    background-position: content;
+    width: 100dvw;
+    height: 100dvh;
+    color: white;
+    display: grid;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+a {
+    color: #0e2c20;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 3rem;
+    text-wrap: pretty;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.icon {
+    color: #0e2c20;
+    height: 0.7m;
+}
+
+.container {
+    display: flex;
+    position: relative;
+}
+
+.home {
+    position: absolute;
+    top: -35px;
+    left: -50px;
+    z-index: 1;
+    width: 50%;
+}
+
+.button {
+    inset: 0;
+    margin: auto;
+    border-radius: 0px 60px 60px 0px;
+    padding-left: 3rem;
+}
+
+.click {
+    position: absolute;
+    right: -80px;
+    height: 150%;
+}

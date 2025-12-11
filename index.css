@@ -1,0 +1,37 @@
+body {
+    background-image: url(/assets/backgrounds/portada.svg);
+    background-repeat: no-repeat;
+    background-position: content;
+    width: 100dvw;
+    height: 100dvh;
+    color: white;
+    display: grid;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+a {
+    color: #0e2c20;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 3rem;
+    text-wrap: pretty;
+    text-align: center;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.icon {
+    color: #0e2c20;
+    height: 0.7m;
+}
