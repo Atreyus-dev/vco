@@ -22,4 +22,5 @@ footer {
 main {
     display: flex;
     margin: auto;
+    max-width: 80dvw;
 }
