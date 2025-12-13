@@ -17,8 +17,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 310px;
-    height: 400px;
+    width: 240px;
+    height: 380px;
     border-radius: 15px;
     background-position: center;
     background-size: cover;
@@ -31,8 +31,8 @@ main {
     color: #0e2c20;
     font-size: larger;
     font-weight: 600;
-    height: 400px;
-    width: 310px;
+    height: 380px;
+    width: 240px;
     border-radius: 15px;
     align-items: center;
     justify-content: center;

@@ -61,5 +61,6 @@ h1 {
 .click {
     position: absolute;
     right: -80px;
-    height: 150%;
+    height: 10rem;
+    z-index: -1;
 }

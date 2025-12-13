@@ -8,8 +8,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 260px;
-    height: 360px;
+    width: 230px;
+    height: 430px;
     border-radius: 15px;
     background-position: center;
     background-size: cover;
@@ -20,8 +20,8 @@
     color: #0e2c20;
     font-size: medium;
     font-weight: 600;
-    height: 360px;
-    width: 260px;
+    height: 430px;
+    width: 220px;
     border-radius: 15px;
     align-items: center;
     justify-content: center;

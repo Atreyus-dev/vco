@@ -42,5 +42,6 @@ h1 {
 }
 
 .click {
-    height: 4rem;
+    height: 10rem;
+    transform: translateX(-50px);
 }

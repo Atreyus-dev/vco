@@ -12,7 +12,7 @@ body {
 .wrapper {
     position: fixed;
     left: 27dvw;
-    top: 20px;
+    top: 1rem;
     margin: auto;
     margin-right: 880px;
 }
@@ -20,11 +20,12 @@ body {
 li {
     margin: 0.3rem;
     color: #0e2c20;
-    font-size: medium;
+    font-size: smaller;
 }
 
 a {
-    font-size: medium;
+    font-size: smaller;
+    font-weight: 100;
 }
 
 .sub {
@@ -54,6 +55,6 @@ span {
     position: absolute;
     margin: auto;
     inset: 0;
-    right: 4px;
-    bottom: 12px;
+    right: 0px;
+    bottom: 50px;
 }

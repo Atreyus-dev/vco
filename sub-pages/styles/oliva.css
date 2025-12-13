@@ -5,8 +5,8 @@ body {
     background-repeat: no-repeat;
     background-position: content;
     background-position: center;
-    width: 100dvw;
-    height: 100dvh;
+    width: 99dvw;
+    height: 99dvh;
     color: white;
     font-size: x-large;
     text-align: center;
@@ -17,6 +17,15 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 3rem;
+    position: sticky;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
 }
 
 main {
