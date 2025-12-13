@@ -35,3 +35,12 @@ h1 {
     color: #0e2c20;
     height: 0.7m;
 }
+
+.cta {
+    display: flex;
+    align-items: center;
+}
+
+.click {
+    height: 4rem;
+}

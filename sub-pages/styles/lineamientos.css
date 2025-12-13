@@ -8,8 +8,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 350px;
+    width: 260px;
+    height: 360px;
     border-radius: 15px;
     background-position: center;
     background-size: cover;
@@ -17,16 +17,16 @@
 
 .fondo {
     display: none;
-    /* background-color: rgba(169, 195, 3, 0.8); */
     color: #0e2c20;
     font-size: medium;
     font-weight: 600;
-    height: 350px;
-    width: 250px;
+    height: 360px;
+    width: 260px;
     border-radius: 15px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 1rem;
 }
 
 .card:first-child {
@@ -110,6 +110,7 @@ h3 {
     left: 0;
     right: 0;
     bottom: 0;
+    border-radius: 15px;
     background: rgb(169, 195, 3, 0.8);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
@@ -125,7 +126,7 @@ h3 {
 .hvr-sweep-to-top:hover,
 .hvr-sweep-to-top:focus,
 .hvr-sweep-to-top:active {
-    color: white;
+    color: black;
 }
 .hvr-sweep-to-top:hover:before,
 .hvr-sweep-to-top:focus:before,

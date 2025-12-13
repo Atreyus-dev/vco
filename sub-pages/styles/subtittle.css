@@ -1,7 +1,8 @@
 body {
     background-image: url(/assets/backgrounds/portada.svg);
     background-repeat: no-repeat;
-    background-position: content;
+    background-position: center;
+    background-size: cover;
     width: 100dvw;
     height: 100dvh;
     color: white;
@@ -44,10 +45,10 @@ h1 {
 
 .home {
     position: absolute;
-    top: -35px;
-    left: -50px;
+    top: -25px;
+    left: -40px;
     z-index: 1;
-    width: 50%;
+    width: 40%;
 }
 
 .button {

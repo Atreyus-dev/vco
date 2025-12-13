@@ -1,5 +1,14 @@
-.img-wrapper {
+main {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.img-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(2, auto);
     max-width: 90dvw;
     gap: 2rem;
 }
@@ -8,11 +17,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 250px;
+    width: 310px;
+    height: 400px;
     border-radius: 15px;
     background-position: center;
     background-size: cover;
+    font-size: medium;
 }
 
 .fondo {
@@ -21,28 +31,29 @@
     color: #0e2c20;
     font-size: larger;
     font-weight: 600;
-    height: 250px;
-    width: 200px;
+    height: 400px;
+    width: 310px;
     border-radius: 15px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 1rem;
 }
 
 .card:first-child {
-    background-image: url(/assets/imagenes/responsabilidades/d1.png);
+    background-image: url(/assets/imagenes/normas/X13.png);
 }
 .card:nth-child(2) {
-    background-image: url(/assets/imagenes/responsabilidades/d2.png);
+    background-image: url(/assets/imagenes/normas/x14.png);
 }
 .card:nth-child(3) {
-    background-image: url(/assets/imagenes/responsabilidades/d3.png);
+    background-image: url(/assets/imagenes/normas/x15.png);
 }
 .card:nth-child(4) {
-    background-image: url(/assets/imagenes/responsabilidades/d4.png);
+    background-image: url(/assets/imagenes/normas/x16.png);
 }
 .card:nth-child(5) {
-    background-image: url(/assets/imagenes/responsabilidades/d5.png);
+    background-image: url(/assets/imagenes/normas/x.png);
 }
 
 .card:hover {

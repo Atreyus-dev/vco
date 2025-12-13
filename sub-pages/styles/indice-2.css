@@ -1,7 +1,8 @@
 body {
     background-image: url(/assets/backgrounds/indice.svg);
     background-repeat: no-repeat;
-    background-position: content;
+    background-position: center;
+    background-size: cover;
     width: 100dvw;
     height: 100dvh;
     color: white;
@@ -9,14 +10,21 @@ body {
 }
 
 .wrapper {
+    position: fixed;
+    left: 27dvw;
+    top: 20px;
     margin: auto;
     margin-right: 880px;
-    font-size: xx-large;
 }
 
 li {
     margin: 0.3rem;
     color: #0e2c20;
+    font-size: medium;
+}
+
+a {
+    font-size: medium;
 }
 
 .sub {

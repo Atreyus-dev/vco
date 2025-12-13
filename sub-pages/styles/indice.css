@@ -1,7 +1,8 @@
 body {
     background-image: url(/assets/backgrounds/indice.svg);
     background-repeat: no-repeat;
-    background-position: content;
+    background-position: center;
+    background-size: cover;
     width: 100dvw;
     height: 100dvh;
     color: white;
@@ -9,8 +10,10 @@ body {
 }
 
 .wrapper {
+    position: fixed;
     margin: auto;
-    margin-right: 857px;
+    left: 25dvw;
+    top: 100px;
     font-size: xx-large;
 }
 
