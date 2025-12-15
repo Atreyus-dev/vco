@@ -31,15 +31,6 @@ span {
     width: fit-content;
 }
 
-.circle {
-    position: absolute;
-    left: 0;
-}
-
 .play {
-    position: absolute;
-    margin: auto;
-    inset: 0;
-    right: 4px;
-    bottom: 12px;
+    height: 2rem;
 }

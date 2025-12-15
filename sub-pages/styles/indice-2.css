@@ -52,9 +52,5 @@ span {
 }
 
 .play {
-    position: absolute;
-    margin: auto;
-    inset: 0;
-    right: 0px;
-    bottom: 50px;
+    height: 2rem;
 }
